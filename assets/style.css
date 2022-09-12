@@ -61,25 +61,44 @@ border: none;
 color: var(--dark-brown);
 }
 
-.about-me img{
-    float:left;
-}
-
 .about-me{
     background-color: var(--white);
-    display: flex;
-    justify-content: right;
-  
+    display: block;
+    margin-bottom: 20px;
 }
 
+#image{
+   float:left; 
+   padding-right:5%;
+}
 
+.portfolio.title{
+    display:inline-block;
+    margin:50px;
+}
 
+.portfolio{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
 
-    
+.section{
+    border-style: solid;
+  border-width: 1px;
+  border-radius: var(--border-radius);
+  padding: 10px;
+  flex: 0 0 300px;
+  box-shadow: 10px 10px 5px #aaaaaa;
+  margin: 20px;
+}
 
-  /*@media 
-    800 x 1,200 pixels.
-
-
-    
+.section > header {
+    border-radius: 50px 50px 0 0;
+    font-size: 120%%;
+    padding: 20px;
+    display: center;
   }
+
+
