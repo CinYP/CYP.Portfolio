@@ -1,0 +1,85 @@
+:root{
+--pink: #efdbdb;
+--white: #FFFFFF;
+--dark-brown: #47271b;
+--light-brown: #c28d7d;
+--black: #000000;
+--font-fam: Optima, sans-serif;
+}
+
+.header{
+    padding: 10px;
+    font-family: Optima, sans-serif;
+    background-color: var(--dark-brown);
+    color: var(--pink);
+    display: flex;
+
+}
+
+nav{
+    display:block
+}
+
+nav a {
+    text-align: center;
+    padding: 2px;
+    color: white;
+}
+
+/* how do I make list items display right?*/
+
+.header nav ul li {
+    color: var(--pink);
+    display: inline;
+}
+
+.hero {
+    display:block;
+    height:350px;
+    width:100%;
+    margin-bottom:25px;
+    background-image: linear-gradient(rgba(52, 23, 59, 0.179), rgba(0, 0, 0, 0.7)), url("./images/Cinthia\ Pruitt\ -\ Headshot.jpeg"); 
+    background-position: center ;
+    background-size: cover;
+    text-align: right;
+    color: var(--white);
+}
+/* how do I center the text on the right?*/
+
+.hero button{
+    background-color: var(--light-brown);
+    border:.5px;
+    color: var(--white);
+    text-align:center;
+    display: inline-block;
+    font-size:100%;
+}
+
+.hero button:hover{
+background-color: var(--pink);
+border: none;
+color: var(--dark-brown);
+}
+
+.about-me img{
+    float:left;
+}
+
+.about-me{
+    background-color: var(--white);
+    display: flex;
+    justify-content: right;
+  
+}
+
+
+
+
+    
+
+  /*@media 
+    800 x 1,200 pixels.
+
+
+    
+  }
