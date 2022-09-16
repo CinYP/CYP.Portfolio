@@ -13,11 +13,12 @@
     background-color: var(--dark-brown);
     color: var(--pink);
     display: flex;
-
+    justify-content: space-between; 
+    text-decoration: none;
 }
 
 nav{
-    display:block
+    display: block;
 }
 
 nav a {
@@ -28,30 +29,34 @@ nav a {
 
 /* how do I make list items display right?*/
 
-.header nav ul li {
+.header > nav ul li {
     color: var(--pink);
     display: inline;
 }
 
 .hero {
-    display:block;
-    height:350px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    height:500px;
     width:100%;
-    margin-bottom:25px;
+    padding:25px;
+    margin: 5px;
     background-image: linear-gradient(rgba(52, 23, 59, 0.179), rgba(0, 0, 0, 0.7)), url("./images/Cinthia\ Pruitt\ -\ Headshot.jpeg"); 
-    background-position: center ;
+    background-position: center;
     background-size: cover;
-    text-align: right;
+    text-align: center;
     color: var(--white);
+    font-size: 120%;
 }
-/* how do I center the text on the right?*/
 
 .hero button{
     background-color: var(--light-brown);
     border:.5px;
     color: var(--white);
     text-align:center;
-    display: inline-block;
+    text-decoration: none;
+    display:center;
     font-size:100%;
 }
 
@@ -79,7 +84,6 @@ color: var(--dark-brown);
     background-color: var(--pink);
     color: var(--dark-brown);
     border-bottom: 1px dotted;
-    
 }
 
 #portfolio-headerers{
@@ -99,16 +103,9 @@ color: var(--dark-brown);
 .ad-development{
     margin-top: 20px;
     position: relative;
-    width: 100%;
+
 }
 
-/*
-.ad-development {
-    position: relative;
-    width: 50%;
-  }
-  */
-  
   .image {
     display: inline-block;
     width: 50%;
@@ -167,5 +164,58 @@ footer{
     color: var(--light-brown);
     text-align: center;
     padding: 15px;
-    
 }
+
+@media screen and (max-width: 992px) {
+    .header > nav ul li {
+        color: var(--white);
+        display: list-item;
+        list-style: none;
+    }
+
+    .header{
+        padding: 10px;
+        font-family: Optima, sans-serif;
+        background-color: var(--pink);
+        color: var(--dark-brown);
+        display: flex;
+        justify-content: space-between; 
+        text-decoration: none;
+    }
+   
+  }
+  
+  
+  @media screen and (max-width: 768px) {
+
+    .header > nav ul li {
+        color: var(--white);
+        display: list-item;
+        list-style: none;
+    }
+    .header{
+        padding: 10px;
+        font-family: Optima, sans-serif;
+        background-color: var(--light-brown);
+        color: var(--black);
+        display: flex;
+        justify-content: space-between; 
+        text-decoration: none;
+    }
+
+  }
+  
+ 
+  @media screen and (max-width: 576px) {
+    .header{
+        padding: 10px;
+        font-family: Optima, sans-serif;
+        background-color: var(--black);
+        color: var(--pink);
+        display: flex;
+        justify-content: space-between; 
+        text-decoration: none;
+    }
+  }
+  
+  
