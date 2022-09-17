@@ -171,6 +171,16 @@ footer{
     padding: 15px;
 }
 
+#dev-project img{
+    width: 50%;
+    height: auto;
+}
+
+#dev-project img:hover{
+    width: 70%;
+    height: auto;
+}
+
 @media screen and (max-width: 992px) {
     .header > nav ul li {
         color: var(--white);

@@ -8,9 +8,9 @@ This process consisted of coding a responsive website with semantic code that is
 
 # Access working site: <a href:"https://cinyp.github.io/Challenge1/">
 
-# Github Repository: <a href:"" >
+# Github Repository: <a href:"https://github.com/CinYP" >
 
-# Project URL: <a href:" ">
+# Project URL: <a href:"https://github.com/CinYP/CYP.Portfolio">
 
 ## Use Case 
 This is a website designed to showcase employeer ready skills. The purpose of this site is to show potential employers the array of work that an individual has completed to then be considered for employement. 
